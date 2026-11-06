@@ -56,7 +56,7 @@ gemini extensions install ./skills-azure-naming/plugins/azure-naming
 
 ## Usage
 
-Ask in your words - "Wie sollen wir die Ressourcen hier benennen?", "replace the hard-coded
+Ask in your words - "how should we name the resources here?", "replace the hard-coded
 names with a naming convention", "migrate from Azure/naming/azurerm to the naming provider" -
 or call the skill directly (`/azure-naming:azure-naming`, `$azure-naming` in Codex).
 
@@ -72,5 +72,5 @@ or call the skill directly (`/azure-naming:azure-naming`, `$azure-naming` in Cod
 
 ## Status
 
-`0.1.0`, private. The skill flow and the references exist; evals and a run in a real
+`0.1.0`, early. The skill flow and the references exist; evals and a run in a real
 repository do not yet.

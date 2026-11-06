@@ -1,6 +1,6 @@
 ---
 name: azure-naming
-description: Proposes and implements Azure resource names in Terraform - a naming convention, naming.yaml, the LemurDaniel/naming provider or Microsoft's Azure/naming/azurerm module, CAF abbreviations, global unique names, renaming or migrating names. Use when someone asks how to name Azure resources, wants a naming convention ("Namenskonvention", "Ressourcennamen", "naming schema"), or wants hard-coded names in Terraform replaced.
+description: Proposes and implements Azure resource names in Terraform - a naming convention, naming.yaml, the LemurDaniel/naming provider or Microsoft's Azure/naming/azurerm module, CAF abbreviations, global unique names, renaming or migrating names. Use when someone asks how to name Azure resources, wants a naming convention or naming schema, or wants hard-coded names in Terraform replaced.
 ---
 
 # Azure naming
