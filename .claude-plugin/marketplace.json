@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skills-azure-naming",
+  "description": "Azure resource naming for coding agents: proposes a naming convention, implements it in Terraform with the LemurDaniel/naming provider or Microsoft's Azure/naming/azurerm module, and checks every name against Azure's rules before it is deployed.",
+  "owner": {
+    "name": "LemurDaniel"
+  },
+  "plugins": [
+    {
+      "name": "azure-naming",
+      "description": "Proposes and implements Azure resource names in Terraform. Asks which naming mechanism to use (LemurDaniel/naming provider, Azure/naming/azurerm or the repository's own), renders every name with Terraform instead of guessing it, and pins existing names so a migration renames nothing.",
+      "author": {
+        "name": "LemurDaniel"
+      },
+      "category": "devops",
+      "source": "./plugins/azure-naming",
+      "homepage": "https://github.com/LemurDaniel/skills-azure-naming"
+    }
+  ]
+}

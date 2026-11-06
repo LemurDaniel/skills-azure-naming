@@ -1,0 +1,20 @@
+{
+  "name": "skills-azure-naming",
+  "interface": {
+    "displayName": "Azure Naming"
+  },
+  "plugins": [
+    {
+      "name": "azure-naming",
+      "source": {
+        "source": "local",
+        "path": "./plugins/azure-naming"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

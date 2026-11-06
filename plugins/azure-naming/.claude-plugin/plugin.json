@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "azure-naming",
+  "displayName": "Azure Naming",
+  "description": "Proposes and implements Azure resource names in Terraform, with the LemurDaniel/naming provider, Microsoft's Azure/naming/azurerm module or the repository's own mechanism. Every name is rendered by Terraform and checked against Azure's naming rules, never guessed.",
+  "version": "0.1.0",
+  "author": {
+    "name": "LemurDaniel"
+  },
+  "repository": "https://github.com/LemurDaniel/skills-azure-naming",
+  "keywords": [
+    "azure",
+    "terraform",
+    "naming-convention",
+    "caf",
+    "azure-naming"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}

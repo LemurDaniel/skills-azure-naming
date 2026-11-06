@@ -1,0 +1,5 @@
+{
+  "name": "azure-naming",
+  "version": "0.1.0",
+  "description": "Proposes and implements Azure resource names in Terraform, with the LemurDaniel/naming provider, Microsoft's Azure/naming/azurerm module or the repository's own mechanism. Every name is rendered by Terraform and checked against Azure's naming rules, never guessed."
+}
